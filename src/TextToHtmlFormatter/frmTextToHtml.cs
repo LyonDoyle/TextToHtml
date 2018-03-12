@@ -92,6 +92,7 @@ namespace TextToHtmlFormatter
         private void btnClear_Click(object sender, EventArgs e)
         {
             clear();
+            _changesSaved = true;
         }
         private void btnDone_Click(object sender, EventArgs e)
         {
