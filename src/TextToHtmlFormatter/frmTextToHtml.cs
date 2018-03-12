@@ -34,7 +34,7 @@ namespace TextToHtmlFormatter
         List<ListEntry> _listEntries;
         #endregion CONSTANTS
 
-        bool TESTMODE = false;
+        bool TESTMODE = true;
         string _htmlAsString;
         bool _changesSaved = true;
 
